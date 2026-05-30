@@ -148,8 +148,6 @@ http://localhost:5173
 
 ## Seed Data Setup
 
-Seed data is created using HTTP request files instead of direct SQL insert statements. This allows the data to go through the same backend validation and business rules as normal user input. It also ensures that user passwords are hashed before being stored in the database.
-
 Run the seed files in this order:
 
 ```text
