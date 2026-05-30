@@ -1,0 +1,399 @@
+### Create Event 1
+POST http://localhost:5176/api/events/create/1
+Content-Type: application/json
+
+{
+  "title": "Kuala Lumpur Creative Market",
+  "categoryName": "Lifestyle",
+  "description": "A weekend market featuring local brands, handmade products, food stalls, and creative workshops.",
+  "eventDate": "2026-06-20",
+  "startTime": "10:00:00",
+  "endTime": "18:00:00",
+  "location": "Kuala Lumpur Convention Centre",
+  "address": "Kuala Lumpur City Centre, 50088 Kuala Lumpur",
+  "city": "Kuala Lumpur",
+  "personInCharge": "Sarah Amelia",
+  "contactPhone": "0123456788",
+  "ticketPrice": 25,
+  "maxTicket": 120
+}
+
+### Create Event 2
+POST http://localhost:5176/api/events/create/1
+Content-Type: application/json
+
+{
+  "title": "Digital Marketing Workshop",
+  "categoryName": "Education",
+  "description": "A practical workshop for small business owners to learn social media strategy, content planning, and campaign basics.",
+  "eventDate": "2026-07-05",
+  "startTime": "09:30:00",
+  "endTime": "13:00:00",
+  "location": "Malaysia Digital Economy Corporation Centre",
+  "address": "Persiaran APEC, Cyber 8, 63000 Cyberjaya, Selangor",
+  "city": "Cyberjaya",
+  "personInCharge": "Sarah Amelia",
+  "contactPhone": "0123456788",
+  "ticketPrice": 45,
+  "maxTicket": 60
+}
+
+### Create Event 3
+POST http://localhost:5176/api/events/create/1
+Content-Type: application/json
+
+{
+  "title": "Evening Jazz Night",
+  "categoryName": "Music",
+  "description": "An intimate jazz performance featuring local musicians, acoustic sets, and refreshments.",
+  "eventDate": "2026-08-14",
+  "startTime": "19:00:00",
+  "endTime": "22:30:00",
+  "location": "No Black Tie",
+  "address": "17, Jalan Mesui, Bukit Bintang, 50200 Kuala Lumpur",
+  "city": "Kuala Lumpur",
+  "personInCharge": "Sarah Amelia",
+  "contactPhone": "0123456788",
+  "ticketPrice": 70,
+  "maxTicket": 80
+}
+
+### Create Event 4
+POST http://localhost:5176/api/events/create/2
+Content-Type: application/json
+
+{
+  "title": "Startup Networking Night",
+  "categoryName": "Business",
+  "description": "A networking event for startup founders, investors, developers, and business students.",
+  "eventDate": "2026-06-28",
+  "startTime": "18:30:00",
+  "endTime": "21:30:00",
+  "location": "Common Ground Damansara Heights",
+  "address": "Wisma UOA Damansara II, Jalan Dungun, Damansara Heights, 50490 Kuala Lumpur",
+  "city": "Kuala Lumpur",
+  "personInCharge": "Daniel Hartono",
+  "contactPhone": "0134829175",
+  "ticketPrice": 35,
+  "maxTicket": 100
+}
+
+### Create Event 5
+POST http://localhost:5176/api/events/create/2
+Content-Type: application/json
+
+{
+  "title": "Personal Finance Bootcamp",
+  "categoryName": "Finance",
+  "description": "A beginner-friendly session about budgeting, saving, investment basics, and financial planning.",
+  "eventDate": "2026-09-12",
+  "startTime": "10:00:00",
+  "endTime": "15:00:00",
+  "location": "Menara Maybank Training Centre",
+  "address": "100, Jalan Tun Perak, 50050 Kuala Lumpur",
+  "city": "Kuala Lumpur",
+  "personInCharge": "Daniel Hartono",
+  "contactPhone": "0134829175",
+  "ticketPrice": 55,
+  "maxTicket": 70
+}
+
+### Create Event 6
+POST http://localhost:5176/api/events/create/2
+Content-Type: application/json
+
+{
+  "title": "Entrepreneurship Forum",
+  "categoryName": "Business",
+  "description": "A forum discussing business ideas, funding preparation, customer validation, and early-stage startup challenges.",
+  "eventDate": "2026-10-18",
+  "startTime": "09:30:00",
+  "endTime": "14:00:00",
+  "location": "Sunway Pyramid Convention Centre",
+  "address": "3, Jalan PJS 11/15, Bandar Sunway, 47500 Subang Jaya, Selangor",
+  "city": "Subang Jaya",
+  "personInCharge": "Daniel Hartono",
+  "contactPhone": "0134829175",
+  "ticketPrice": 40,
+  "maxTicket": 130
+}
+
+### Create Event 7
+POST http://localhost:5176/api/events/create/3
+Content-Type: application/json
+
+{
+  "title": "Art and Design Exhibition",
+  "categoryName": "Art",
+  "description": "A public exhibition showcasing paintings, digital illustrations, product designs, and student portfolios.",
+  "eventDate": "2026-07-18",
+  "startTime": "11:00:00",
+  "endTime": "17:00:00",
+  "location": "Hin Bus Depot",
+  "address": "31A, Jalan Gurdwara, 10300 George Town, Pulau Pinang",
+  "city": "George Town",
+  "personInCharge": "Melissa Tan",
+  "contactPhone": "0147293851",
+  "ticketPrice": 20,
+  "maxTicket": 150
+}
+
+### Create Event 8
+POST http://localhost:5176/api/events/create/3
+Content-Type: application/json
+
+{
+  "title": "Photography Walk",
+  "categoryName": "Photography",
+  "description": "A guided outdoor photography session around heritage streets with tips on lighting, framing, and composition.",
+  "eventDate": "2026-08-02",
+  "startTime": "08:00:00",
+  "endTime": "11:30:00",
+  "location": "Armenian Street Heritage Area",
+  "address": "Lebuh Armenian, 10300 George Town, Pulau Pinang",
+  "city": "George Town",
+  "personInCharge": "Melissa Tan",
+  "contactPhone": "0147293851",
+  "ticketPrice": 30,
+  "maxTicket": 40
+}
+
+### Create Event 9
+POST http://localhost:5176/api/events/create/3
+Content-Type: application/json
+
+{
+  "title": "Creative Writing Workshop",
+  "categoryName": "Writing",
+  "description": "A workshop on story structure, character development, dialogue writing, and editing drafts.",
+  "eventDate": "2026-11-07",
+  "startTime": "10:00:00",
+  "endTime": "14:30:00",
+  "location": "Penang Digital Library",
+  "address": "135, Jalan Masjid Negeri, 11600 George Town, Pulau Pinang",
+  "city": "George Town",
+  "personInCharge": "Melissa Tan",
+  "contactPhone": "0147293851",
+  "ticketPrice": 38,
+  "maxTicket": 55
+}
+
+### Create Event 10
+POST http://localhost:5176/api/events/create/4
+Content-Type: application/json
+
+{
+  "title": "Tech Career Talk",
+  "categoryName": "Technology",
+  "description": "A career talk for students and fresh graduates interested in software engineering, data analytics, and IT consulting.",
+  "eventDate": "2026-06-25",
+  "startTime": "14:00:00",
+  "endTime": "17:00:00",
+  "location": "Multimedia University Cyberjaya",
+  "address": "Persiaran Multimedia, 63100 Cyberjaya, Selangor",
+  "city": "Cyberjaya",
+  "personInCharge": "Kevin Wijaya",
+  "contactPhone": "0162384917",
+  "ticketPrice": 15,
+  "maxTicket": 200
+}
+
+### Create Event 11
+POST http://localhost:5176/api/events/create/4
+Content-Type: application/json
+
+{
+  "title": "Web Development Mini Bootcamp",
+  "categoryName": "Technology",
+  "description": "A hands-on bootcamp introducing HTML, CSS, JavaScript, React basics, and simple API integration.",
+  "eventDate": "2026-09-20",
+  "startTime": "09:00:00",
+  "endTime": "16:00:00",
+  "location": "Cyberview Innovation Centre",
+  "address": "Persiaran APEC, 63000 Cyberjaya, Selangor",
+  "city": "Cyberjaya",
+  "personInCharge": "Kevin Wijaya",
+  "contactPhone": "0162384917",
+  "ticketPrice": 80,
+  "maxTicket": 50
+}
+
+### Create Event 12
+POST http://localhost:5176/api/events/create/4
+Content-Type: application/json
+
+{
+  "title": "AI Tools for Students",
+  "categoryName": "Technology",
+  "description": "A practical session about using AI tools responsibly for research, note-taking, planning, and productivity.",
+  "eventDate": "2026-11-21",
+  "startTime": "10:00:00",
+  "endTime": "12:30:00",
+  "location": "Asia Pacific University of Technology and Innovation",
+  "address": "Technology Park Malaysia, Bukit Jalil, 57000 Kuala Lumpur",
+  "city": "Kuala Lumpur",
+  "personInCharge": "Kevin Wijaya",
+  "contactPhone": "0162384917",
+  "ticketPrice": 22,
+  "maxTicket": 100
+}
+
+### Create Event 13
+POST http://localhost:5176/api/events/create/5
+Content-Type: application/json
+
+{
+  "title": "Healthy Living Seminar",
+  "categoryName": "Health",
+  "description": "A seminar about nutrition, exercise habits, stress management, and building a balanced daily routine.",
+  "eventDate": "2026-07-26",
+  "startTime": "10:00:00",
+  "endTime": "12:30:00",
+  "location": "PJ Live Arts",
+  "address": "Jaya One, 72A, Jalan Profesor Diraja Ungku Aziz, 46200 Petaling Jaya, Selangor",
+  "city": "Petaling Jaya",
+  "personInCharge": "Amanda Lim",
+  "contactPhone": "0174928365",
+  "ticketPrice": 18,
+  "maxTicket": 90
+}
+
+### Create Event 14
+POST http://localhost:5176/api/events/create/5
+Content-Type: application/json
+
+{
+  "title": "Yoga in the Park",
+  "categoryName": "Fitness",
+  "description": "A relaxing morning yoga session suitable for beginners and intermediate participants.",
+  "eventDate": "2026-08-09",
+  "startTime": "07:30:00",
+  "endTime": "09:00:00",
+  "location": "Taman Jaya Park",
+  "address": "Jalan Timur, Seksyen 10, 46000 Petaling Jaya, Selangor",
+  "city": "Petaling Jaya",
+  "personInCharge": "Amanda Lim",
+  "contactPhone": "0174928365",
+  "ticketPrice": 12,
+  "maxTicket": 45
+}
+
+### Create Event 15
+POST http://localhost:5176/api/events/create/5
+Content-Type: application/json
+
+{
+  "title": "Mindfulness and Stress Relief Session",
+  "categoryName": "Health",
+  "description": "A guided mindfulness session focused on breathing techniques, journaling, and stress relief practices.",
+  "eventDate": "2026-12-05",
+  "startTime": "09:00:00",
+  "endTime": "11:00:00",
+  "location": "The School by Jaya One",
+  "address": "72A, Jalan Profesor Diraja Ungku Aziz, 46200 Petaling Jaya, Selangor",
+  "city": "Petaling Jaya",
+  "personInCharge": "Amanda Lim",
+  "contactPhone": "0174928365",
+  "ticketPrice": 16,
+  "maxTicket": 40
+}
+
+### Create Event 16
+POST http://localhost:5176/api/events/create/6
+Content-Type: application/json
+
+{
+  "title": "Food Festival Weekend",
+  "categoryName": "Food",
+  "description": "A food festival featuring local street food, desserts, drinks, and live cooking demonstrations.",
+  "eventDate": "2026-10-03",
+  "startTime": "12:00:00",
+  "endTime": "22:00:00",
+  "location": "Setia City Convention Centre",
+  "address": "1, Jalan Setia Dagang AG U13/AG, Setia Alam, 40170 Shah Alam, Selangor",
+  "city": "Shah Alam",
+  "personInCharge": "Jason Lee",
+  "contactPhone": "0183746291",
+  "ticketPrice": 10,
+  "maxTicket": 300
+}
+
+### Create Event 17
+POST http://localhost:5176/api/events/create/7
+Content-Type: application/json
+
+{
+  "title": "Public Speaking Masterclass",
+  "categoryName": "Education",
+  "description": "A masterclass to improve confidence, presentation structure, body language, and audience engagement.",
+  "eventDate": "2026-09-06",
+  "startTime": "13:00:00",
+  "endTime": "17:00:00",
+  "location": "Persada Johor International Convention Centre",
+  "address": "Jalan Abdullah Ibrahim, Bandar Johor Bahru, 80000 Johor Bahru, Johor",
+  "city": "Johor Bahru",
+  "personInCharge": "Natalie Wong",
+  "contactPhone": "0195837462",
+  "ticketPrice": 50,
+  "maxTicket": 75
+}
+
+### Create Event 18
+POST http://localhost:5176/api/events/create/8
+Content-Type: application/json
+
+{
+  "title": "Gaming Community Meetup",
+  "categoryName": "Entertainment",
+  "description": "A casual meetup for gaming fans with mini tournaments, console stations, board games, and community activities.",
+  "eventDate": "2026-08-22",
+  "startTime": "13:00:00",
+  "endTime": "20:00:00",
+  "location": "Sunway Pyramid Convention Centre",
+  "address": "3, Jalan PJS 11/15, Bandar Sunway, 47500 Subang Jaya, Selangor",
+  "city": "Subang Jaya",
+  "personInCharge": "Brandon Chua",
+  "contactPhone": "0112678493",
+  "ticketPrice": 28,
+  "maxTicket": 110
+}
+
+### Create Event 19
+POST http://localhost:5176/api/events/create/9
+Content-Type: application/json
+
+{
+  "title": "Book Lovers Gathering",
+  "categoryName": "Community",
+  "description": "A community gathering for book lovers with reading discussions, book exchange, and author sharing sessions.",
+  "eventDate": "2026-07-12",
+  "startTime": "15:00:00",
+  "endTime": "18:00:00",
+  "location": "Kuala Lumpur Library",
+  "address": "1, Jalan Raja, 50050 Kuala Lumpur",
+  "city": "Kuala Lumpur",
+  "personInCharge": "Olivia Chen",
+  "contactPhone": "0129384756",
+  "ticketPrice": 8,
+  "maxTicket": 65
+}
+
+### Create Event 20
+POST http://localhost:5176/api/events/create/1
+Content-Type: application/json
+
+{
+  "title": "Year End Community Fair",
+  "categoryName": "Community",
+  "description": "A community fair with family activities, charity booths, local sellers, and live performances.",
+  "eventDate": "2026-12-19",
+  "startTime": "10:00:00",
+  "endTime": "19:00:00",
+  "location": "Dataran Merdeka",
+  "address": "Jalan Raja, City Centre, 50050 Kuala Lumpur",
+  "city": "Kuala Lumpur",
+  "personInCharge": "Sarah Amelia",
+  "contactPhone": "0123456788",
+  "ticketPrice": 5,
+  "maxTicket": 250
+}

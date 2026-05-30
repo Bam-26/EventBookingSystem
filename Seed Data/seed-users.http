@@ -1,0 +1,130 @@
+### Register user 1: Sarah Amelia
+POST http://localhost:5176/api/user/register
+Content-Type: application/json
+
+{
+  "username": "sarahamelia",
+  "password": "Sarah2026",
+  "fullName": "Sarah Amelia",
+  "email": "sarah.amelia@example.com",
+  "phoneNumber": "0123456788",
+  "dateOfBirth": "2000-05-14"
+}
+
+### Register user 2: Daniel Hartono
+POST http://localhost:5176/api/user/register
+Content-Type: application/json
+
+{
+  "username": "danielhartono",
+  "password": "Daniel789",
+  "fullName": "Daniel Hartono",
+  "email": "daniel.hartono@example.com",
+  "phoneNumber": "0134829175",
+  "dateOfBirth": "1998-11-22"
+}
+
+### Register user 3: Melissa Tan
+POST http://localhost:5176/api/user/register
+Content-Type: application/json
+
+{
+  "username": "melissatan",
+  "password": "Melissa321",
+  "fullName": "Melissa Tan",
+  "email": "melissa.tan@example.com",
+  "phoneNumber": "0147293851",
+  "dateOfBirth": "2001-03-09"
+}
+
+### Register user 4: Kevin Wijaya
+POST http://localhost:5176/api/user/register
+Content-Type: application/json
+
+{
+  "username": "kevinwijaya",
+  "password": "Kevin456",
+  "fullName": "Kevin Wijaya",
+  "email": "kevin.wijaya@example.com",
+  "phoneNumber": "0162384917",
+  "dateOfBirth": "1999-08-17"
+}
+
+### Register user 5: Amanda Lim
+POST http://localhost:5176/api/user/register
+Content-Type: application/json
+
+{
+  "username": "amandalim",
+  "password": "Amanda654",
+  "fullName": "Amanda Lim",
+  "email": "amanda.lim@example.com",
+  "phoneNumber": "0174928365",
+  "dateOfBirth": "1997-12-03"
+}
+
+### Register user 6: Jason Lee
+POST http://localhost:5176/api/user/register
+Content-Type: application/json
+
+{
+  "username": "jasonlee",
+  "password": "Jason852",
+  "fullName": "Jason Lee",
+  "email": "jason.lee@example.com",
+  "phoneNumber": "0183746291",
+  "dateOfBirth": "1996-06-28"
+}
+
+### Register user 7: Natalie Wong
+POST http://localhost:5176/api/user/register
+Content-Type: application/json
+
+{
+  "username": "nataliewong",
+  "password": "Natalie741",
+  "fullName": "Natalie Wong",
+  "email": "natalie.wong@example.com",
+  "phoneNumber": "0195837462",
+  "dateOfBirth": "2002-01-19"
+}
+
+### Register user 8: Brandon Chua
+POST http://localhost:5176/api/user/register
+Content-Type: application/json
+
+{
+  "username": "brandonchua",
+  "password": "Brandon963",
+  "fullName": "Brandon Chua",
+  "email": "brandon.chua@example.com",
+  "phoneNumber": "0112678493",
+  "dateOfBirth": "1995-09-11"
+}
+
+### Register user 9: Olivia Chen
+POST http://localhost:5176/api/user/register
+Content-Type: application/json
+
+{
+  "username": "oliviachen",
+  "password": "Olivia159",
+  "fullName": "Olivia Chen",
+  "email": "olivia.chen@example.com",
+  "phoneNumber": "0129384756",
+  "dateOfBirth": "2000-07-25"
+}
+
+### Register user 10: Adrian Teo
+POST http://localhost:5176/api/user/register
+Content-Type: application/json
+
+{
+  "username": "adrianteo",
+  "password": "Adrian357",
+  "fullName": "Adrian Teo",
+  "email": "adrian.teo@example.com",
+  "phoneNumber": "0136574829",
+  "dateOfBirth": "1994-04-06"
+}
+

@@ -1,0 +1,179 @@
+### Create Booking 1
+POST http://localhost:5176/api/booking/create/6
+Content-Type: application/json
+
+{
+  "eventId": 1,
+  "quantity": 2
+}
+
+### Create Booking 2
+POST http://localhost:5176/api/booking/create/7
+Content-Type: application/json
+
+{
+  "eventId": 1,
+  "quantity": 1
+}
+
+### Create Booking 3
+POST http://localhost:5176/api/booking/create/8
+Content-Type: application/json
+
+{
+  "eventId": 2,
+  "quantity": 1
+}
+
+### Create Booking 4
+POST http://localhost:5176/api/booking/create/9
+Content-Type: application/json
+
+{
+  "eventId": 2,
+  "quantity": 2
+}
+
+### Create Booking 5
+POST http://localhost:5176/api/booking/create/10
+Content-Type: application/json
+
+{
+  "eventId": 3,
+  "quantity": 2
+}
+
+### Create Booking 6
+POST http://localhost:5176/api/booking/create/1
+Content-Type: application/json
+
+{
+  "eventId": 4,
+  "quantity": 1
+}
+
+### Create Booking 7
+POST http://localhost:5176/api/booking/create/3
+Content-Type: application/json
+
+{
+  "eventId": 4,
+  "quantity": 3
+}
+
+### Create Booking 8
+POST http://localhost:5176/api/booking/create/4
+Content-Type: application/json
+
+{
+  "eventId": 5,
+  "quantity": 1
+}
+
+### Create Booking 9
+POST http://localhost:5176/api/booking/create/5
+Content-Type: application/json
+
+{
+  "eventId": 5,
+  "quantity": 2
+}
+
+### Create Booking 10
+POST http://localhost:5176/api/booking/create/6
+Content-Type: application/json
+
+{
+  "eventId": 6,
+  "quantity": 1
+}
+
+### Create Booking 11
+POST http://localhost:5176/api/booking/create/2
+Content-Type: application/json
+
+{
+  "eventId": 7,
+  "quantity": 2
+}
+
+### Create Booking 12
+POST http://localhost:5176/api/booking/create/9
+Content-Type: application/json
+
+{
+  "eventId": 7,
+  "quantity": 1
+}
+
+### Create Booking 13
+POST http://localhost:5176/api/booking/create/10
+Content-Type: application/json
+
+{
+  "eventId": 8,
+  "quantity": 1
+}
+
+### Create Booking 14
+POST http://localhost:5176/api/booking/create/1
+Content-Type: application/json
+
+{
+  "eventId": 9,
+  "quantity": 2
+}
+
+### Create Booking 15
+POST http://localhost:5176/api/booking/create/7
+Content-Type: application/json
+
+{
+  "eventId": 10,
+  "quantity": 3
+}
+
+### Create Booking 16
+POST http://localhost:5176/api/booking/create/8
+Content-Type: application/json
+
+{
+  "eventId": 11,
+  "quantity": 1
+}
+
+### Create Booking 17
+POST http://localhost:5176/api/booking/create/5
+Content-Type: application/json
+
+{
+  "eventId": 12,
+  "quantity": 2
+}
+
+### Create Booking 18
+POST http://localhost:5176/api/booking/create/2
+Content-Type: application/json
+
+{
+  "eventId": 13,
+  "quantity": 1
+}
+
+### Create Booking 19
+POST http://localhost:5176/api/booking/create/4
+Content-Type: application/json
+
+{
+  "eventId": 14,
+  "quantity": 2
+}
+
+### Create Booking 20
+POST http://localhost:5176/api/booking/create/10
+Content-Type: application/json
+
+{
+  "eventId": 15,
+  "quantity": 1
+}

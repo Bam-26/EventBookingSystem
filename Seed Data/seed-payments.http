@@ -1,0 +1,220 @@
+### Create Payment 1
+POST http://localhost:5176/api/payment/create/1
+Content-Type: application/json
+
+{
+  "paymentType": "Bank Transfer",
+  "referenceBank": "Maybank",
+  "accountNumber": "514287963012",
+  "accountName": "Jason Lee"
+}
+
+### Create Payment 2
+POST http://localhost:5176/api/payment/create/2
+Content-Type: application/json
+
+{
+  "paymentType": "Credit Card",
+  "referenceBank": "CIMB Bank",
+  "accountNumber": "421356789045",
+  "accountName": "Natalie Wong"
+}
+
+### Create Payment 3
+POST http://localhost:5176/api/payment/create/3
+Content-Type: application/json
+
+{
+  "paymentType": "E-Wallet",
+  "referenceBank": "Touch n Go eWallet",
+  "accountNumber": "601126784930",
+  "accountName": "Brandon Chua"
+}
+
+### Create Payment 4
+POST http://localhost:5176/api/payment/create/4
+Content-Type: application/json
+
+{
+  "paymentType": "Bank Transfer",
+  "referenceBank": "Public Bank",
+  "accountNumber": "318492760155",
+  "accountName": "Olivia Chen"
+}
+
+### Create Payment 5
+POST http://localhost:5176/api/payment/create/5
+Content-Type: application/json
+
+{
+  "paymentType": "Credit Card",
+  "referenceBank": "Hong Leong Bank",
+  "accountNumber": "536901284777",
+  "accountName": "Adrian Teo"
+}
+
+### Create Payment 6
+POST http://localhost:5176/api/payment/create/6
+Content-Type: application/json
+
+{
+  "paymentType": "Cash",
+  "referenceBank": "Counter Payment",
+  "accountNumber": "CASH-0006",
+  "accountName": "Sarah Amelia"
+}
+
+### Create Payment 7
+POST http://localhost:5176/api/payment/create/7
+Content-Type: application/json
+
+{
+  "paymentType": "Bank Transfer",
+  "referenceBank": "RHB Bank",
+  "accountNumber": "229184673508",
+  "accountName": "Melissa Tan"
+}
+
+### Create Payment 8
+POST http://localhost:5176/api/payment/create/8
+Content-Type: application/json
+
+{
+  "paymentType": "E-Wallet",
+  "referenceBank": "GrabPay",
+  "accountNumber": "601623849170",
+  "accountName": "Kevin Wijaya"
+}
+
+### Create Payment 9
+POST http://localhost:5176/api/payment/create/9
+Content-Type: application/json
+
+{
+  "paymentType": "Credit Card",
+  "referenceBank": "Alliance Bank",
+  "accountNumber": "448275910663",
+  "accountName": "Amanda Lim"
+}
+
+### Create Payment 10
+POST http://localhost:5176/api/payment/create/10
+Content-Type: application/json
+
+{
+  "paymentType": "Bank Transfer",
+  "referenceBank": "AmBank",
+  "accountNumber": "701928364518",
+  "accountName": "Jason Lee"
+}
+
+### Create Payment 11
+POST http://localhost:5176/api/payment/create/11
+Content-Type: application/json
+
+{
+  "paymentType": "E-Wallet",
+  "referenceBank": "Boost",
+  "accountNumber": "601348291750",
+  "accountName": "Daniel Hartono"
+}
+
+### Create Payment 12
+POST http://localhost:5176/api/payment/create/12
+Content-Type: application/json
+
+{
+  "paymentType": "Cash",
+  "referenceBank": "Event Counter",
+  "accountNumber": "CASH-0012",
+  "accountName": "Olivia Chen"
+}
+
+### Create Payment 13
+POST http://localhost:5176/api/payment/create/13
+Content-Type: application/json
+
+{
+  "paymentType": "Bank Transfer",
+  "referenceBank": "Bank Islam",
+  "accountNumber": "908172635441",
+  "accountName": "Adrian Teo"
+}
+
+### Create Payment 14
+POST http://localhost:5176/api/payment/create/14
+Content-Type: application/json
+
+{
+  "paymentType": "Credit Card",
+  "referenceBank": "UOB Malaysia",
+  "accountNumber": "492861730524",
+  "accountName": "Sarah Amelia"
+}
+
+### Create Payment 15
+POST http://localhost:5176/api/payment/create/15
+Content-Type: application/json
+
+{
+  "paymentType": "E-Wallet",
+  "referenceBank": "ShopeePay",
+  "accountNumber": "601958374620",
+  "accountName": "Natalie Wong"
+}
+
+### Mark Payment 1 As Paid
+PUT http://localhost:5176/api/payment/paid/1
+Content-Type: application/json
+
+### Mark Payment 2 As Paid
+PUT http://localhost:5176/api/payment/paid/2
+Content-Type: application/json
+
+### Mark Payment 3 As Paid
+PUT http://localhost:5176/api/payment/paid/3
+Content-Type: application/json
+
+### Mark Payment 4 As Paid
+PUT http://localhost:5176/api/payment/paid/4
+Content-Type: application/json
+
+### Mark Payment 5 As Paid
+PUT http://localhost:5176/api/payment/paid/5
+Content-Type: application/json
+
+### Mark Payment 10 As Failed
+PUT http://localhost:5176/api/payment/failed/10
+Content-Type: application/json
+
+### Mark Payment 11 As Failed
+PUT http://localhost:5176/api/payment/failed/11
+Content-Type: application/json
+
+### Mark Payment 12 As Failed
+PUT http://localhost:5176/api/payment/failed/12
+Content-Type: application/json
+
+### Mark Payment 13 As Paid Before Refund
+PUT http://localhost:5176/api/payment/paid/13
+Content-Type: application/json
+
+### Refund Payment 13
+PUT http://localhost:5176/api/payment/refund/13
+Content-Type: application/json
+
+### Mark Payment 14 As Paid Before Refund
+PUT http://localhost:5176/api/payment/paid/14
+Content-Type: application/json
+
+### Refund Payment 14
+PUT http://localhost:5176/api/payment/refund/14
+Content-Type: application/json
+
+### Mark Payment 15 As Paid Before Refund
+PUT http://localhost:5176/api/payment/paid/15
+Content-Type: application/json
+
+### Refund Payment 15
+PUT http://localhost:5176/api/payment/refund/15
+Content-Type: application/json
